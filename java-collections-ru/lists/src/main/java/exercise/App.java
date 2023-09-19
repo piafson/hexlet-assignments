@@ -11,7 +11,6 @@ public class App {
         }
         boolean res = true;
         List<Character> charsSet = new ArrayList<>();
-
         for (char ch: set.toLowerCase().toCharArray()) {
             charsSet.add(ch);
         }
