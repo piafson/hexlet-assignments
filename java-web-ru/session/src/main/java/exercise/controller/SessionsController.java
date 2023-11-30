@@ -4,6 +4,7 @@ import java.util.Objects;
 import java.util.Collections;
 import exercise.dto.MainPage;
 import exercise.dto.LoginPage;
+import exercise.model.User;
 import exercise.repository.UsersRepository;
 import static exercise.util.Security.encrypt;
 
