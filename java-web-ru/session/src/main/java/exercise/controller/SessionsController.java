@@ -1,11 +1,13 @@
 package exercise.controller;
 
+import java.util.Objects;
 import java.util.Collections;
 import exercise.dto.MainPage;
 import exercise.dto.LoginPage;
 import exercise.repository.UsersRepository;
 import static exercise.util.Security.encrypt;
 
+import exercise.util.NamedRoutes;
 import io.javalin.http.Context;
 
 public class SessionsController {
