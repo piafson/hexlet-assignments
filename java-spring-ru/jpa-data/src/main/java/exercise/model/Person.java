@@ -18,7 +18,7 @@ public class Person {
     @GeneratedValue(strategy = IDENTITY)
     private Long id;
 
-    @Column(unique = true)
+
     private String firstName;
 
     private String lastName;
