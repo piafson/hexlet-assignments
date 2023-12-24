@@ -13,11 +13,9 @@ import lombok.Setter;
 @Table(name = "persons")
 @Getter
 @Setter
-@EqualsAndHashCode(onlyExplicitlyIncluded = true)
 public class Person {
     @Id
     @GeneratedValue(strategy = IDENTITY)
-    @EqualsAndHashCode.Include
     private Long id;
 
     @Column(unique = true)
