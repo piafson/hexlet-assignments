@@ -69,7 +69,7 @@ public class AppTest {
         assertThat(response.getStatus()).isEqualTo(200);
         assertThat(response.getContentType()).isEqualTo(MediaType.APPLICATION_JSON.toString());
         assertThat(response.getContentAsString()).contains("John", "Smith");
-        assertThat(response.getContentAsString()).contains("Jack", "Joe");
+        assertThat(response.getContentAsString()).contains("Jack", "Doe");
     }
 
     @Test
